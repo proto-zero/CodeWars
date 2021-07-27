@@ -61,34 +61,6 @@ AlphabetWar("zt")        //=>  "st" => "Left side wins!"
 AlphabetWar("azt")       //=> "ast" => "Left side wins!"
 AlphabetWar("tzj")       //=> "tzj" => "Right side wins!"
 
-## your_order_please.rb
-
-Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
-
-Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
-
-If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
-
-Examples
-"is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
-"4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
-""  -->  ""
-
-## valid_parentheses.rb
-
-Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid. The function should return true if the string is valid, and false if it's invalid.
-
-Examples
-"()"              =>  true
-")(()))"          =>  false
-"("               =>  false
-"(())((()())())"  =>  true
-
-Constraints
-0 <= input.length <= 100
-
-Along with opening (() and closing ()) parenthesis, input may contain any valid ASCII characters. Furthermore, the input string may be empty and/or not contain any parentheses at all. Do not treat other forms of brackets as parentheses (e.g. [], {}, <>).
-
 ## categorize_new_members
 
 The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
@@ -107,6 +79,41 @@ Output will consist of a list of string values (in Haskell: Open or Senior) stat
 
 Example Output
 ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+
+
+## convert_PascalCase_string_into_snake_case.rb
+
+Complete the function/method so that it takes CamelCase string and returns the string in snake_case notation. Lowercase characters can be numbers. If method gets number, it should return string.
+
+Examples:
+
+returns test_controller
+to_underscore('TestController')
+
+returns movies_and_books
+to_underscore('MoviesAndBooks')
+
+returns app7_test
+to_underscore('App7Test')
+
+returns "1"
+to_underscore(1)
+
+## valid_parentheses.rb
+
+Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid. The function should return true if the string is valid, and false if it's invalid.
+
+Examples
+"()"              =>  true
+")(()))"          =>  false
+"("               =>  false
+"(())((()())())"  =>  true
+
+Constraints
+0 <= input.length <= 100
+
+Along with opening (() and closing ()) parenthesis, input may contain any valid ASCII characters. Furthermore, the input string may be empty and/or not contain any parentheses at all. Do not treat other forms of brackets as parentheses (e.g. [], {}, <>).
+
 
 ## which_are_in
 
@@ -130,3 +137,16 @@ Notes:
 Arrays are written in "general" notation. See "Your Test Cases" for examples in your language.
 In Shell bash a1 and a2 are strings. The return is a string where words are separated by commas.
 Beware: r must be without duplicates.
+
+## your_order_please.rb
+
+Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
+
+Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+
+If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
+
+Examples
+"is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
+"4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
+""  -->  ""
