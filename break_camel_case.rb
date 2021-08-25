@@ -13,3 +13,8 @@ def solution(string)
   # Result
   result.join
 end
+
+# Practice writing solution in one line
+def solution(string)
+  string.chars.map { |s| s == s.downcase ? s : " #{s}" }.join
+end
