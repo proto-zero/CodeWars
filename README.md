@@ -61,6 +61,15 @@ AlphabetWar("zt")        //=>  "st" => "Left side wins!"
 AlphabetWar("azt")       //=> "ast" => "Left side wins!"
 AlphabetWar("tzj")       //=> "tzj" => "Right side wins!"
 
+## break_camel_case.rb
+
+Complete the solution so that the function will break up camel casing, using a space between words.
+
+Example
+"camelCasing"  =>  "camel Casing"
+"identifier"   =>  "identifier"
+""             =>  ""
+
 ## categorize_new_members
 
 The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
