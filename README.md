@@ -149,6 +149,27 @@ As an added challenge, upper- and lowercase letters are considered the same char
 
 If a string contains all repeating characters, it should return an empty string ("") or None -- see sample tests.
 
+## format_a_string_of_names.rb
+
+Description:
+Given: an array containing hashes of names
+
+Return: a string formatted as a list of names separated by commas except for the last two names, which should be separated by an ampersand.
+
+Example:
+
+list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])
+# returns 'Bart, Lisa & Maggie'
+
+list([ {name: 'Bart'}, {name: 'Lisa'} ])
+# returns 'Bart & Lisa'
+
+list([ {name: 'Bart'} ])
+# returns 'Bart'
+
+list([])
+# returns ''
+
 ## new_cashier.rb
 
 Some new cashiers started to work at your restaurant.
