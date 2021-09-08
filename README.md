@@ -236,7 +236,17 @@ Complete the solution so that it takes a list of integers in increasing order an
 Example:
 
 solution([-6, -3, -2, -1, 0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20])
-# returns "-6,-3-1,3-5,7-11,14,15,17-20"
+returns "-6,-3-1,3-5,7-11,14,15,17-20"
+
+## school_paperwork.rb
+
+Your classmates asked you to copy some paperwork for them. You know that there are 'n' classmates and the paperwork has 'm' pages.
+
+Your task is to calculate how many blank pages do you need. If n < 0 or m < 0 return 0.
+
+Example:
+n= 5, m=5: 25
+n=-5, m=5:  0
 
 ## sum_of_digits.rb
 
