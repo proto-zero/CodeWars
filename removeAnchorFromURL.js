@@ -14,3 +14,7 @@ function removeUrlAnchor(url){
   // Result
   return result;                      // If there is no # present, return the entire result
 }
+
+function removeUrlAnchor(url){
+  return url.split('#')[0];
+}
