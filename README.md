@@ -212,6 +212,29 @@ The menu items are fairly simple, there is no overlap in the names of the items:
 7. Milkshake
 8. Coke
 
+## peopleWithAgeDrink.js
+
+Description:
+Kids drink toddy.
+Teens drink coke.
+Young adults drink beer.
+Adults drink whisky.
+Make a function that receive age, and return what they drink.
+
+Rules:
+
+Children under 14 old.
+Teens under 18 old.
+Young under 21 old.
+Adults have 21 or more.
+Examples: (Input --> Output)
+
+13 --> "drink toddy"
+17 --> "drink coke"
+18 --> "drink beer"
+20 --> "drink beer"
+30 --> "drink whisky"
+
 ## plus_one_array.rb
 
 Given an array of integers of any length, return an array that has 1 added to the value represented by the array.
