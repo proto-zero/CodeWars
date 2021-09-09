@@ -261,6 +261,18 @@ Example:
 solution([-6, -3, -2, -1, 0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20])
 returns "-6,-3-1,3-5,7-11,14,15,17-20"
 
+## removeAnchorFromURL.js
+
+Description:
+Complete the function/method so that it returns the url with anything after the anchor (#) removed.
+
+Examples
+// returns 'www.codewars.com'
+removeUrlAnchor('www.codewars.com#about')
+
+// returns 'www.codewars.com?page=1'
+removeUrlAnchor('www.codewars.com?page=1')
+
 ## school_paperwork.rb
 
 Your classmates asked you to copy some paperwork for them. You know that there are 'n' classmates and the paperwork has 'm' pages.
