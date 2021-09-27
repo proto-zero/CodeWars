@@ -174,16 +174,29 @@ Return: a string formatted as a list of names separated by commas except for the
 Example:
 
 list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])
-# returns 'Bart, Lisa & Maggie'
+returns 'Bart, Lisa & Maggie'
 
 list([ {name: 'Bart'}, {name: 'Lisa'} ])
-# returns 'Bart & Lisa'
+returns 'Bart & Lisa'
 
 list([ {name: 'Bart'} ])
-# returns 'Bart'
+returns 'Bart'
 
 list([])
-# returns ''
+returns ''
+
+## hello_name_or_world.rb
+
+Define a method hello that returns "Hello, Name!" to a given name, or says Hello, World! if name is not given (or passed as an empty String).
+
+Assuming that name is a String and it checks for user typos to return a name with a first capital letter (Xxxx).
+
+Examples:
+
+hello "john"   => "Hello, John!"
+hello "aliCE"  => "Hello, Alice!"
+hello          => "Hello, World!" # name not given
+hello ""       => "Hello, World!" # name is an empty String
 
 ## new_cashier.rb
 
@@ -213,6 +226,13 @@ The menu items are fairly simple, there is no overlap in the names of the items:
 6. Onionrings
 7. Milkshake
 8. Coke
+
+## opposites_attract.rb
+## OppositesAttract.cs
+
+Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. If one of the flowers has an even number of petals and the other has an odd number of petals it means they are in love.
+
+Write a function that will take the number of petals of each flower and return true if they are in love and false if they aren't.
 
 ## peopleWithAgeDrink.js
 
